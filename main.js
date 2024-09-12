@@ -21,6 +21,7 @@ function showText(stateID) {
   textEl.textContent = newStory[stateID].description;
 }
 function showImage(stateID) {
+  // Show image on page
   imgEl.src = newStory[stateID].imgUrl;
 }
 
